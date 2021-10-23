@@ -7,8 +7,7 @@
 }
 
 body {
-  font-family: 'Cabin', sans-serif;
- 
+  font-family: 'Cabin', sans-serif; 
 }
 
 /* HEADER */
@@ -46,6 +45,7 @@ body {
  a {
    color: #F9FAF8;;
    text-decoration: none;
+   font-size: 1.35em;
  }
 
  /* CONTAIN AREA */
