@@ -49,3 +49,58 @@ body {
  }
 
  /* CONTAIN AREA */
+main {
+  max-width: 1000%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.email {
+  margin-top: 50px;
+  height: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content {
+  margin: 5px 0;
+}
+#car {
+  width: 100%;
+  max-width: 56vw;
+}
+
+#caption {
+  font-size: 3.0em;
+}
+
+#subcaption {
+  font-size: 2.0em;
+}
+
+form {
+  margin-top: 16px;
+}
+
+input[type="email"] {
+  width: 15vw;
+  height: 5vh;
+  margin-bottom: 8px;
+}
+
+input[type="submit"] {
+  width: 12.5vw;
+  height: 5vh;
+  font-size: 1.2em;
+  background: rgb(185, 185, 0);
+  border: 0.5px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 1s fade-in 0.9s;
+}
+
+input[type="submit"]:hover {
+background: rgb(251, 255, 0);
+}
