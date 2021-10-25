@@ -57,7 +57,7 @@ main {
 
 .email {
   margin-top: 50px;
-  height: 950px;
+  height: 460px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,6 +66,10 @@ main {
 }
 .content {
   margin: 5px 0;
+}
+
+.img {
+  margin-top: 250px;
 }
 #car {
   width: 100%;
@@ -104,3 +108,5 @@ input[type="submit"] {
 input[type="submit"]:hover {
 background: rgb(251, 255, 0);
 }
+
+/* FEATURES BAR */
